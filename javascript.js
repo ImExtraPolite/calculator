@@ -1,19 +1,24 @@
 function add(num1, num2) {
   const addition = document.querySelector(".add");
 
-  // addition.addEventListener("click", ())
+  addition.addEventListener("click", () => {
+
+  })
 }
 
 function num1() {
-  const num = document.querySelector(".add");
-  let numOne;
+  const num = document.querySelector(".seven");
+  // let numOne = "";
 
   num.addEventListener("click", () => {
+    let numOne = "";
     numOne = num.textContent;
 
-    console.log(numOne);
+    // return numOne;
   });
+
+  return numOne;
 }
 
-num1();
+console.log(num1());
 
