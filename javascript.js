@@ -1,7 +1,19 @@
-const container = document.querySelector("#container");
+function add(num1, num2) {
+  const addition = document.querySelector(".add");
 
-for (let i = 1; i <= 5; i++) {
-  const rows = document.querySelector(".row" + i);
-
-  
+  // addition.addEventListener("click", ())
 }
+
+function num1() {
+  const num = document.querySelector(".add");
+  let numOne;
+
+  num.addEventListener("click", () => {
+    numOne = num.textContent;
+
+    console.log(numOne);
+  });
+}
+
+num1();
+

@@ -3,20 +3,9 @@ body {
   color: white;
 }
 
-#container {
-  /* border: solid white; */
-  padding: auto;
-}
-
-.user {
-  /* border: solid white; */
-  padding: 50px;
-}
 
 .row1, .row2, .row3, .row4, .row5, .user {
   display: flex;
-  /* border: solid white; */
-  width: 30%;
   margin: auto;
 }
 
@@ -28,9 +17,6 @@ body {
   margin: 10px;
 }
 
-.zero {
-  padding: 30px;
-}
 
 .row1 div:hover, .row2 div:hover, .row3 div:hover, .row4 div:hover, .row5 div:hover {
   background-color: white;
