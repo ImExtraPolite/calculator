@@ -2,15 +2,20 @@ button {
   font-size: 15px;
   padding: 20px;
   margin: 5px;
-  background-color: black;
-  border-radius: 45%;
+  /* background-color: black; */
+  /* border-radius: 45%; */
+  border: solid black;
 }
 
 button:hover {
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 .clear {
   padding: 20px 75px;
-  border-radius: 40%;
+}
+
+.zero {
+  padding: 20px 85px;
 }
