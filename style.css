@@ -9,3 +9,8 @@ button {
 button:hover {
   background-color: white;
 }
+
+.clear {
+  padding: 20px 75px;
+  border-radius: 40%;
+}
