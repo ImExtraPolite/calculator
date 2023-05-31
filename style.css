@@ -1,21 +1,23 @@
+#container {
+  border: solid white;
+  width: 270px;
+}
+
 button {
   font-size: 15px;
   padding: 20px;
   margin: 5px;
-  /* background-color: black; */
-  /* border-radius: 45%; */
+  background-color: black;
   border: solid black;
 }
 
 button:hover {
-  background-color: black;
+  background-color: gray;
   color: white;
 }
 
-.clear {
-  padding: 20px 75px;
-}
-
-.zero {
-  padding: 20px 85px;
+.displayHTML {
+  /* border: solid white; */
+  height: 70px;
+  font-size: 45px;
 }

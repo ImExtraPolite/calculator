@@ -28,7 +28,34 @@ function operate(num1, num2, operator) {
   }
 }
 
+function display() {
+  let newInput = "";
+  let userInput;
+  let num = "";
+  let userDisplay = document.querySelector(".displayHTML");
+
+  for (let i = 0; i <= 9; i++) {
+    num = i;
+    userInput = document.querySelector(".number" + num);
+
+    // console.log(num);
+
+    userInput.addEventListener("click", () => {
+      console.log(userInput.textContent);
+      userDisplay.textContent = userInput.textContent;
+    });
+  }
+}
+
+
+  // console.log(userInput.textContent);
+
+
+  // input.textContent = "nice";
+
+
 let num1;
 let num2;
 let operator;
 
+display();
