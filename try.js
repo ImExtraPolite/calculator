@@ -31,18 +31,17 @@ function operate(num1, num2, operator) {
 function display() {
   let newInput = "";
   let userInput;
-  let num = "";
+  let num = 0;
   let userDisplay = document.querySelector(".displayHTML");
 
   for (let i = 0; i <= 9; i++) {
-    num = i;
-    userInput = document.querySelector(".number" + num);
-
-    // console.log(num);
+    userInput = document.querySelector(".number" + i);
 
     userInput.addEventListener("click", () => {
-      console.log(userInput.textContent);
-      userDisplay.textContent = userInput.textContent;
+      let newUserInput = userInput.textContent;
+
+      console.log(newUserInput);
+      // userDisplay.textContent = userInput.textContent;
     });
   }
 }
